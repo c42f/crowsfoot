@@ -7,8 +7,8 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
       <link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
       <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
-      <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/icons.css"/>
-      <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/styles.css"/>
+      <link rel="stylesheet" type="text/css" href="/theme/css/icons.css"/>
+      <link rel="stylesheet" type="text/css" href="/theme/css/styles.css"/>
       <meta charset="utf-8" />
       {% if FEED_ATOM %}
         <link href="/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
@@ -44,7 +44,7 @@
             <!--pages-->
             {% if DISPLAY_PAGES_ON_MENU %}
               {% for p in PAGES %}
-                <li{% if p == page %} class="active"{% endif %}><a class="nodec" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                <li{% if p == page %} class="active"{% endif %}><a class="nodec" href="{{ p.url }}">{{ p.title }}</a></li>
               {% endfor %}
             {% endif %}
             <!-- services icons -->

@@ -9,7 +9,7 @@
     {% for article in articles_page.object_list %}
     <li class="post">
         <header class="posttitle">
-          <h3><a href="{{ SITEURL }}/{{ article.url }}"
+          <h3><a href="/{{ article.url }}"
                   rel="bookmark"
                   class="nodec"
                   title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
@@ -19,7 +19,7 @@
         <div class="postinfo">
           <p class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </p>
           {% if article.author and SHOW_ARTICLE_AUTHOR %}
-          <address class="vcard author">By <a "nodec" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></address>
+          <address class="vcard author">By <a "nodec" href="/{{ article.author.url }}">{{ article.author }}</a></address>
           {% endif %}
         </div><!-- /.postinfo -->
 
