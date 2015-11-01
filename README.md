@@ -1,7 +1,9 @@
 # crowsfoot
 
-A theme for the [Pelican](http://getpelican.com) static site generator.
-Looks good, puts words on the internet, doesn't do anything fancy.
+
+A fork of [James Porter's](http://jamesporter.me/) theme for the
+[Pelican](http://getpelican.com) static site generator.  Looks good, puts words
+on the internet, doesn't do anything fancy.
 
 ## Installation
 
@@ -36,13 +38,9 @@ the footer.
 single author website, so you can turn this behavior off by setting this
 to `False`
 
-##Screenshot
-
-![crowsfoot](https://raw.github.com/porterjamesj/crowsfoot/master/screenshot.jpg)
-
 ##Live Demo
 
-[my website](http://jamesporter.me/)
+[my website](http://c42f.github.io/)
 
 ## License
 
