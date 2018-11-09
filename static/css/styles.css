@@ -141,8 +141,8 @@ a:hover { /* Hover style: transition to orange. Cool! */
 
 .content ol, .content ul {
     position: relative;
-    left: 40px;
-    padding-bottom: 20px;
+    margin-left: 2em;
+    padding-bottom: 1em;
 }
 
 /* Make super and subscipts look reasonable. */
@@ -255,6 +255,7 @@ code, pre, tt {
 
 .article code {
     background-color: #f0f0f0;
+    white-space: nowrap;
 }
 
 /* Footer at page bottom */
